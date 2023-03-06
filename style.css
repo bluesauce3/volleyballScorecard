@@ -1,0 +1,30 @@
+.team-sheet-inputs, .team-sheet-inputs th, .team-sheet-inputs td, .team-sheet-inputs th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.team-sheet-inputs input {
+    border: 0;
+}
+
+.team-sheet {
+    width: 50%;
+}
+
+.team-sheet-inputs {
+    width: 100%;
+}
+
+.playernames-teamA, .playernames-teamB {
+    width: 95%;
+}
+
+.playernumbers-teamA, .playernumbers-teamB {
+    width: 95%;
+}
+
+td.playernames {
+}
+td.playernumbers {
+}
+

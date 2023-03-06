@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="app.js"></script>
 	</head>
 	<body>
 		<h1>Volleyball Scorecard</h1>
-		<div class="player1">
-			<input type="text" placeholder="shirt number"></input>
-			<input type="submit"></input>
-		</div>
+		<form class="team-sheet">
+			<table class="team-sheet-inputs">
+				<tr>
+					<th colspan="4">Team Names</th>
+				</tr>
+				<tr class="team-names">
+					<td colspan="2"><input type="text" id="teamA" placeholder="Team A"></td>
+					<td colspan="2"><input type="text" id="teamB" placeholder="Team B"></td>
+				</tr>
+				<tr>
+					<th colspan="4">Player Names</th>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+				<tr>
+					<td class="playername"><input type="text" class="playernames-teamA"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamA"></td>
+					<td class="playername"><input type="text" class="playernames-teamB"></td>
+					<td class="playernumber"><input type="text" class="playernumbers-teamB"></td>
+				</tr>
+			</table>
+			<button id="team-sheet-submit" onclick="submitTeamSheet()">submit</button>
+		</form>
 	</body>
 </html>
