@@ -9,22 +9,36 @@
 
 .team-sheet {
     width: 50%;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .team-sheet-inputs {
     width: 100%;
 }
 
-.playernames-teamA, .playernames-teamB {
-    width: 95%;
+.teamname {
+    width: calc(50% - 2px);
+    border: 1px solid red;
 }
 
-.playernumbers-teamA, .playernumbers-teamB {
-    width: 95%;
+.playername {
+    width: 40%;
+    border: 1px solid blue;
+}
+.playernumber {
+    width: calc(10% - 4px);
+    border: 1px solid blue;
 }
 
-td.playernames {
-}
-td.playernumbers {
+#team-sheet-submit {
+    flex-wrap: none;
+    width: 100%;
 }
 
+.team-sheet-title {
+    width: 100%;
+    text-align: center;
+}
