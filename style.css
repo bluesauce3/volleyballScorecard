@@ -1,44 +1,46 @@
-.team-sheet-inputs, .team-sheet-inputs th, .team-sheet-inputs td, .team-sheet-inputs th {
-    border: 1px solid grey;
-    border-collapse: collapse;
-}
-
-.team-sheet-inputs input {
-    border: 0;
-}
+div.spacer {}
 
 .team-sheet {
     width: 50%;
-    border: 1px solid grey;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    --border-width: 1px;
 }
-
-.team-sheet-inputs {
-    width: 100%;
-}
-
 .teamname {
-    width: calc(50% - 2px);
-    border: 1px solid red;
+    width: calc(50% - calc(2*var(--border-width)));
+    border: var(--border-width) solid red;
 }
-
 .playername {
     width: 40%;
-    border: 1px solid blue;
+    border: var(--border-width) solid blue;
 }
 .playernumber {
-    width: calc(10% - 4px);
-    border: 1px solid blue;
+    width: calc(10% - calc(4*var(--border-width)));
+    border: var(--border-width) solid blue;
 }
-
-#team-sheet-submit {
+.team-sheet-submit {
     flex-wrap: none;
     width: 100%;
 }
-
 .team-sheet-title {
     width: 100%;
     text-align: center;
+}
+
+.rotation-sheet {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    --border-width: 1px;
+}
+
+.rotation-sheet .player-position {
+    border: 1px solid green;
+    width: calc(calc(100%/3) - 2*var(--border-width));
+}
+
+.rotation-sheet-submit {
+    width:100%;
 }

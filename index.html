@@ -7,48 +7,67 @@
 	<body>
 		<h1>Volleyball Scorecard</h1>
 		<form class="team-sheet">
-			<span class="team-sheet-title">Team Names</span>
-			<span type="text" class="teamname teamA input" contenteditable="true"></span>
-			<span type="text" class="teamname teamB input" contenteditable="true"></span>
+			<div class="team-sheet-title">Team Names</div>
+			<div type="text" class="teamname teamA input" contenteditable="true"></div>
+			<div type="text" class="teamname teamB input" contenteditable="true"></div>
 			
-			<span class="team-sheet-title">Player Names</span>
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div class="team-sheet-title">Player Names</div>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 			
-			<span type="text" class="playername teamA input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamA input" contenteditable="true"></span>
-			<span type="text" class="playername teamB input" contenteditable="true"></span>
-			<span type="text" class="playernumber teamB input" contenteditable="true"></span>
+			<div type="text" class="playername teamA input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamA input" contenteditable="true"></div>
+			<div type="text" class="playername teamB input" contenteditable="true"></div>
+			<div type="text" class="playernumber teamB input" contenteditable="true"></div>
 
 			
-			<button id="team-sheet-submit" onclick="submitTeamSheet()" type="button">submit</button>
+			<button class="team-sheet-submit" onclick="submitTeamSheet()" type="button">submit</button>
+		</form>
+		<form class="rotation-sheet teamA">
+			<div type="text" class="I player-position" contenteditable="true"></div>
+			<div type="text" class="II player-position" contenteditable="true"></div>
+			<div type="text" class="III player-position" contenteditable="true"></div>
+			<div type="text" class="IV player-position" contenteditable="true"></div>
+			<div type="text" class="V player-position" contenteditable="true"></div>
+			<div type="text" class="VI player-position" contenteditable="true"></div>
+			<button class="rotation-sheet-submit teamA">submit</button>
+		</form>
+		<div class="spacer" style="height: 5vh"></div>
+		<form class="rotation-sheet teamB">
+			<div type="text" class="I player-position" contenteditable="true"></div>
+			<div type="text" class="II player-position" contenteditable="true"></div>
+			<div type="text" class="III player-position" contenteditable="true"></div>
+			<div type="text" class="IV player-position" contenteditable="true"></div>
+			<div type="text" class="V player-position" contenteditable="true"></div>
+			<div type="text" class="VI player-position" contenteditable="true"></div>
+			<button class="rotation-sheet-submit teamB">submit</button>
 		</form>
 	</body>
 </html>
